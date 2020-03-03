@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { UserPageRoutingModule } from './user-routing.module';
+import { UserDeletePageRoutingModule } from './user-delete-routing.module';
 
-import { UserPage } from './user.page';
+import { UserDeletePage } from './user-delete.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    UserPageRoutingModule
+    UserDeletePageRoutingModule
   ],
-  declarations: [UserPage]
+  declarations: [UserDeletePage]
 })
-export class UserPageModule {}
+export class UserDeletePageModule {}
